@@ -77,5 +77,3 @@ while True:
         print(f"Block Hash: {block.block_hash}")
         print(f"Block Data: {block.block_data}")
         print("----")
-
-    break
