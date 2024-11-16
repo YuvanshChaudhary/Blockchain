@@ -66,20 +66,7 @@ blockchain = Blockchain()
 # Main loop to collect data from user
 print("Enter data to add to the blockchain. Type 'False' to stop.")
 while True:
-    user_input = ''' Do not go gentle into that good night,
-
-Old age should burn and rave at close of day;
-
-Rage, rage against the dying of the light.
-
-Though wise men at their end know dark is right,
-
-Because their words had forked no lightning they
-
-Do not go gentle into that good night.
-
-Rage, rage against the dying of the light.'''
-
+    user_input = input('Enter Data: ')
     if user_input.lower() == "false":
         break
     handle_large_data(user_input, blockchain)
